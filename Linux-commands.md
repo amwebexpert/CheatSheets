@@ -2,7 +2,7 @@
 
 Notes:
 
-* Original version forked from here: http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/
+* Original version forked from here: * http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/
 
 ## FILE SYSTEM
 
@@ -184,3 +184,22 @@ gzip file — compresses file and renames it to file.gz
 
 gzip -d file.gz — decompresses file.gz back to file
 
+
+## SOFTWARE INSTALLATION - CentOS 7
+
+### Install Node.js
+    npm: sudo yum install nodejs npm
+* https://tecadmin.net/install-latest-nodejs-and-npm-on-centos/
+
+### Other usefull links
+
+* https://superuser.com/questions/806448/how-to-make-a-desktop-icon-on-centos-7
+* https://stackoverflow.com/questions/5104817/how-to-install-java-sdk-on-centos
+* https://stackoverflow.com/questions/16271316/setting-java-home-classpath-in-centos-6
+* https://linuxize.com/post/how-to-install-visual-studio-code-on-centos-7/
+* https://elearning.wsldp.com/pcmagazine/extract-7zip-centos-7/
+* https://www.howtoforge.com/tutorial/how-to-upgrade-kernel-in-centos-7-server/
+* https://phoenixnap.com/kb/how-to-enable-ssh-centos-7
+* http://me.dt.in.th/page/please/
+* https://openvpn.net/vpn-server-resources/connecting-to-access-server-with-linux/
+* https://serverfault.com/a/812243/549745
