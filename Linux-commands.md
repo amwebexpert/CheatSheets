@@ -116,6 +116,8 @@ chmod ugo file — change permissions of file to ugo - u is the user's permissio
 
 0 — no permissions
 
+chmod +x file  — adds execution permission to file
+
 chmod 600 file — you can read and write - good for files
 
 chmod 700 file — you can read, write, and execute - good for scripts
