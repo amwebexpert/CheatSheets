@@ -52,14 +52,6 @@ Combines the specified branch's history into the current branch. This is usually
 
 Deletes the specified branch
 
-{% endcapture %}
-<div class="col-md-6">
-{{ colOne | markdownify }}
-</div>
-
-
-{% capture colTwo %}
-
 ## Create repositories
 
 When starting out with a new repository, you only need to do it once; either locally, then push to GitHub, or by cloning an existing repository.
@@ -99,14 +91,6 @@ Uploads all local branch commits to GitHub
 ```$ git pull```
 
 Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. `git pull` is a combination of `git fetch` and `git merge`
-
-{% endcapture %}
-<div class="col-md-6">
-{{ colTwo | markdownify }}
-</div>
-<div class="clearfix"></div>
-
-{% capture colThree %}
 
 ## Make changes
 
@@ -150,13 +134,6 @@ Discards all history and changes back to the specified commit
 
 > CAUTION! Changing history can have nasty side effects. If you need to change commits that exist on GitHub (the remote), proceed with caution. If you need help, reach out at github.community or contact support.
 
-{% endcapture %}
-<div class="col-md-6">
-{{ colThree | markdownify }}
-</div>
-
-{% capture colFour %}
-
 ## Glossary
 
 - **git**: an open source, distributed version-control system
@@ -168,9 +145,3 @@ Discards all history and changes back to the specified commit
 - **fork**: a copy of a repository on GitHub owned by a different user
 - **pull request**: a place to compare and discuss the differences introduced on a branch with reviews, comments, integrated tests, and more
 - **HEAD**: representing your current working directory, the HEAD pointer can be moved to different branches, tags, or commits when using `git checkout`
-
-{% endcapture %}
-<div class="col-md-6">
-{{ colFour | markdownify }}
-</div>
-<div class="clearfix"></div>
