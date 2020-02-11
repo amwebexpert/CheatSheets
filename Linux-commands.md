@@ -61,6 +61,9 @@ alias name 'command' — create an alias for a command
 printenv JAVA_HOME — Echo environment variable value
 
 source ~/.bash_profile — re-execute user's .bash_profile after changes
+source ~/.bashrc — re-execute user's .bash_rc after changes
+
+vim .bashrc - ... and add a bin folder to default path: export PATH=/path/to/new/bin/folder:$PATH
 
 shutdown — shut down machine
 
