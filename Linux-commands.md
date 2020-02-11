@@ -60,6 +60,8 @@ alias name 'command' — create an alias for a command
 
 printenv JAVA_HOME — Echo environment variable value
 
+rpm -q {packageNameHere} — look for location of module installed using yum
+
 source ~/.bash_profile — re-execute user's .bash_profile after changes
 
 source ~/.bashrc — re-execute user's .bash_rc after changes
