@@ -195,6 +195,10 @@ gzip -d file.gz — decompresses file.gz back to file
 
 ## SOFTWARE INSTALLATION - CentOS 7
 
+### Install RPM downloaded package
+
+* sudo yum localinstall file.rpm
+
 ### Install Node.js
     npm: sudo yum install nodejs npm
 * https://tecadmin.net/install-latest-nodejs-and-npm-on-centos/
